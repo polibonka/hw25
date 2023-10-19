@@ -1,0 +1,45 @@
+.box1{
+    width: 170px ;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    left: 50px;
+  
+   
+}
+.box2{
+    position: absolute;
+    z-index: 2; 
+    background: rgb(238, 144, 225);
+    width: 170px ;
+    left: 70%;
+    top: 150px;
+    height: 100px;
+    opacity: 0.9;
+   
+}
+
+.box3{
+    position: absolute;
+    z-index: 6; 
+    background: rgb(255, 1, 1);
+    width: 170px ;
+    left: 55%;
+    top: 80px;
+    height: 100px;
+    opacity: 0.9;
+   
+}
+
+
+.box{
+   
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
